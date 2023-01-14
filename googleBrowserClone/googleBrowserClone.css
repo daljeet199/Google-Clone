@@ -1,0 +1,202 @@
+.logoAllign{
+    width: 22vw;
+}
+ /* .inputBoxRadius{
+    box-shadow: 0 1px 6px 0 rgb(32 33 36 / 28%);
+    --lwc-borderRadiusMedium: 2.25rem;
+    --lwc-heightInput: 2.875rem;
+    --lwc-colorTextPlaceholder:#5f6368;
+    
+    border: 0px;
+}
+.inputBoxRadius::placeholder{
+    font: 20px;
+} */
+.searchBarLength
+{
+    width: 100%;
+    height: 3rem;
+    border: none;
+    font-size: large;
+    outline: none;
+}
+.searchBarLength:focus{
+    border: none;
+    outline: none;
+}
+.micPosition{
+    width: 20px;
+    margin-right: 16%;
+}
+.micPosition:hover{
+    cursor: pointer;
+}
+.boxShadow{
+    display: flex;
+    padding: 0%;
+    border-radius: 25px;
+    box-shadow: 0 1px 6px 0 rgb(32 33 36 / 28%);
+    width: 100%;
+}
+.IconAlign{
+    width: 5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.micAlign{
+    width: 5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.formSize{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45vw;
+}
+.textFont{
+    color: rgba(0,0,0,.87);
+    font-size: 14px;
+}
+.headerIcon{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-top: 20px;
+}
+.launcherHover:hover{
+    cursor: pointer;
+    border-radius: 50%;
+    box-shadow: 0px 0px 0px 15px rgb(241 243 244);
+    background: rgb(241 243 244);
+}
+.tileBookmark{
+    border-radius: 50%;
+    box-shadow: 0px 0px 0px 15px rgb(241 243 244);
+    color: black;
+    font-size: 1.4rem;
+    background: rgb(241 243 244);
+}
+.tileDivSize{
+    width: 36vw;
+}
+.tileDivSizeChild{
+    padding: 40px;
+    border-radius: 20%;
+}
+.tileDivSizeChild:hover{
+    background: #a9a9a97d;
+    cursor: pointer;
+    border-radius: 20%;
+}
+:host .modalInput{
+    height: 28px;
+    width: 94%;
+    /* border-radius: 5px; */
+    border: none;
+    box-shadow: none;
+    /* background: #f1f3f4; */
+    --lwc-colorBackgroundInput: #f1f3f4;
+    --lwc-borderRadiusMedium: 0.5rem;
+    --lwc-colorBorderInput: none;
+}
+.modalInput:focus{
+    border: none;
+    outline: none;
+}
+.underline{
+
+}
+.dropDownList{
+    position: absolute; 
+    left: -140px;
+    top: 15px;
+    padding: 0px;
+    border-radius: 10px;
+    box-shadow: 0px 1px 2px 0px rgb(60 64 67 / 30%), 0px 2px 6px 2px rgb(60 64 67 / 15%);
+}
+.dropDownList:focus{
+    position: absolute; 
+    left: -140px;
+
+}
+.relativeDiv{
+    position: relative;
+    /* box-shadow: 0px 1px 2px 0px rgb(60 64 67 / 30%), 0px 2px 6px 2px rgb(60 64 67 / 15%); */
+    border-radius: 10px;
+    /* border: 1px solid; */
+}
+@media only screen and (max-width: 700px) {
+    .logoAllign{
+        width: 55vw;
+    }
+    .searchBarLength
+    {
+        font-size: initial;
+    }
+    .boxShadow{
+        width: 100%;
+    }
+    .formSize{
+        width: 90vw;
+    }
+    .IconAlign{
+        width: 11vw;
+    }
+    .dispNone{
+        /* display: none; */
+    }
+    .headerIcon{
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: flex-end;
+        margin-top: 20px;
+    }
+    .textFont{
+        /* margin-left: 100%; */
+    }
+    /* .tileIcon{
+        width: 25%;
+    } */
+    .leftTileText{
+        margin-left: 1%;
+    }
+  }
+  .imageSize{
+    width: 47px;
+  }
+  .dropDownIcons{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    /* border: 1px solid; */
+    width: 100%;
+}
+.DropDowniconAlign{
+    display: flex;
+    width: 80px;
+    height: 80px;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+.DropDowniconAlignInner{
+    display: flex;
+    flex-direction: column;
+    color: black;
+    width: 50px;
+    height: 50px;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+.DropDowniconAlign:hover{
+    cursor: pointer;
+    background: aliceblue;
+    border-radius: 10px;
+}
+  
